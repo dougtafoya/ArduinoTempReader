@@ -25,6 +25,7 @@ void ArduinoSerial::connect(char* portName)
 			if(GetLastError() == ERROR_FILE_NOT_FOUND)
 			{
 				printf("Error handle could not be attached to port %s\n",portName);
+				
 			}
 			else
 			{
