@@ -40,6 +40,7 @@ int main(int argc, char* argv[], char* envp[])
 							printf("[%s: %i bytes at %i/%i/%i %i:%i:%i] Temperature change! Old: %i New: %i\n",ardtest.portIdentifier,readResult,ct.wMonth,ct.wDay,ct.wYear,ct.wHour,ct.wMinute,ct.wSecond,currentTemp,newTemp);	
 							currentTemp = newTemp;
 							lastChange = readTime;
+							
 						}
 						
 					}
