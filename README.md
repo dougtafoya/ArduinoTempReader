@@ -11,6 +11,4 @@ This uses the 10k resistor as a voltage divider so you can read the resistance o
 
 There are much more complicated versions that give you greater control and more accurate readings but I tested this against a proper thermostat and the readings were more or less the same.
 
-Command line usage:
- Connect to an Arduino on COM port 3:
- arduinoreader connect COM3
+Command line usage: To connect to an Arduino on COM port 3: "arduinoreader connect COM3"
