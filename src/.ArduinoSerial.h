@@ -19,6 +19,7 @@ class ArduinoSerial
 		bool testConnection();
 		int readData(char *buffer, unsigned int nbChar);
 		bool writeData(char* buffer,unsigned int nbChar);
+		
 	private:
 		//members
 		HANDLE hSerial;
